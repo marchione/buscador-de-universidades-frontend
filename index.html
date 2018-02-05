@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Buscador de Universidades Próximas (:</title>
+    <script src="js/buscadorDeUniversidades.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKgwo5q9iNQoKC5QudzZoN5FV_t6CHP-U&libraries=places&callback=initMap"></script>
+    <link rel="stylesheet" href="css/buscadorDeUniversidades.css">
+  </head>
+  <body>
+    <div id="main">
+      <h1 class="titulo text">Buscador de universidades (:</h1>
+      <p class="text">Raio de dist&acirc;ncia (metros) da sua localidade: <input id="raio" class="input-number" type="number" value="5000"></p>
+      <p><a class="btn" href="#" value="Buscar">Buscar</a></p>
+      <p class="text msgErro"></p>
+
+      <div id="mapa"></div>
+    </div>
+  </body>
+</html>

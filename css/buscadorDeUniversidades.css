@@ -1,0 +1,63 @@
+#mapa {
+  height: 600px;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.text {
+  text-align: center;
+  max-width: 100%;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-family: BrandonGrotesque-Black, "futura-pt-1","futura-pt-2", Verdana, sans-serif;
+}
+
+.titulo {
+  font-size: 58px;
+}
+
+.msgErro{
+    font-size: 20px;
+    display: none;
+    color: red;
+}
+
+.input-number {
+  border-radius: 5px;
+  font-size: 30px;
+  width: 162px;
+  text-align: center;
+  behavior:url("border-radius.htc");
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 35px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
